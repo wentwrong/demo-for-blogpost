@@ -1,0 +1,9 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./screen-lg.css";
+@import "./screen-md.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";

@@ -1,0 +1,35 @@
+header nav {
+    @apply flex flex-row flex-wrap items-center justify-between bg-gray-700 p-6;
+}
+
+header nav .logo {
+    @apply tracking-widest font-black text-white uppercase;
+}
+
+header nav .toggle-panel {
+    @apply flex;
+}
+
+header nav .toggle-panel svg {
+    @apply fill-current h-3 w-3;
+}
+
+header nav .toggle-panel > button {
+    @apply flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400;
+}
+
+header nav .toggle-panel > button:hover {
+    @apply text-white border-white;
+}
+
+header nav .navbar {
+    @apply flex-col hidden w-full;
+}
+
+header nav .navbar a {
+    @apply text-gray-500 mr-5;
+}
+
+header nav .navbar a:hover {
+    @apply text-white;
+}

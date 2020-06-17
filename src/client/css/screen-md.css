@@ -1,0 +1,25 @@
+@screen md {
+    main nav ol {
+        @apply flex-row;
+    }
+
+    main nav ol li {
+        @apply w-auto mr-5;
+    }
+
+    main .product-current {
+        @apply flex-row;
+    }
+    
+    main .product-current .product-image {
+        @apply w-2/3;
+    }
+
+    main .product-current .product-about button {
+        @apply flex;
+    }
+
+    main .product-current .product-about .product-info {
+        @apply mb-auto;
+    }
+}

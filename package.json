@@ -1,0 +1,24 @@
+{
+  "name": "demo-for-blogpost",
+  "version": "1.0.0",
+  "description": "Demo page for blog-post about Jenkins TestCafe Plugin",
+  "main": "",
+  "scripts": {
+    "serve": "live-server lib --no-browser",
+    "test": "testcafe"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "live-server": "^1.2.1",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.4.6",
+    "testcafe": "^1.8.6",
+    "testcafe-reporter-jenkins": "^1.0.1"
+  }
+}

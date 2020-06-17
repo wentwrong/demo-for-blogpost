@@ -1,0 +1,11 @@
+body footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.25rem;
+  padding: 1rem;
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+}
+
+/*# sourceMappingURL=footer.css.map */

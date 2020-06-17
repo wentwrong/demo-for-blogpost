@@ -1,0 +1,18 @@
+{
+    "browsers": [
+        "chromium:headless:emulation:device=iPhone 4",
+        "chromium:headless:emulation:device=iPad Mini",
+        "chromium:headless"
+    ],
+    "src": "test/e2e/**/*",
+    "screenshots": {
+        "takeOnFails": true, 
+        "fullPage": true
+    },
+    "videoPath": "videos",
+    "reporter": {
+        "name": "jenkins",
+        "output": "report.xml"
+    },
+    "appCommand": "npm run serve"
+}

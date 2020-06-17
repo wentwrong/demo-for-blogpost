@@ -1,0 +1,77 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  --bg-opacity: 1;
+  background-color: #4a5568;
+  background-color: rgba(74, 85, 104, var(--bg-opacity));
+  padding: 1.5rem;
+}
+
+header nav .logo {
+  letter-spacing: 0.1em;
+  font-weight: 900;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  text-transform: uppercase;
+}
+
+header nav .toggle-panel {
+  display: flex;
+}
+
+header nav .toggle-panel svg {
+  fill: currentColor;
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+header nav .toggle-panel > button {
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #b2f5ea;
+  color: rgba(178, 245, 234, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #4fd1c5;
+  border-color: rgba(79, 209, 197, var(--border-opacity));
+}
+
+header nav .toggle-panel > button:hover {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  --border-opacity: 1;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
+}
+
+header nav .navbar {
+  flex-direction: column;
+  display: none;
+  width: 100%;
+}
+
+header nav .navbar a {
+  --text-opacity: 1;
+  color: #a0aec0;
+  color: rgba(160, 174, 192, var(--text-opacity));
+  margin-right: 1.25rem;
+}
+
+header nav .navbar a:hover {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+/*# sourceMappingURL=header.css.map */

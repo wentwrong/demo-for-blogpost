@@ -1,0 +1,17 @@
+@screen lg {
+    header nav .log {
+        @apply text-xl;
+    }
+    
+    header nav .toggle-panel {
+        @apply hidden;
+    }
+
+    header nav .navbar {
+        @apply flex flex-row w-auto;
+    }
+
+    main .products-related .products-more .product-name {
+        @apply text-4xl;
+    }
+}
