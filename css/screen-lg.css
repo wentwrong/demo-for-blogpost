@@ -1,0 +1,21 @@
+@media (min-width: 1024px) {
+  header nav .log {
+    font-size: 1.25rem;
+  }
+
+  header nav .toggle-panel {
+    display: none;
+  }
+
+  header nav .navbar {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+
+  main .products-related .products-more .product-name {
+    font-size: 2.25rem;
+  }
+}
+
+/*# sourceMappingURL=screen-lg.css.map */

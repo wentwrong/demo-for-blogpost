@@ -1,0 +1,101 @@
+main > div {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.75rem;
+}
+
+main nav ol {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+main nav ol li {
+  width: 100%;
+}
+
+main .product-current {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+
+main .product-current .product-image {
+  width: 100%;
+}
+
+main .product-current .product-about button {
+  display: none;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: #48bb78;
+  background-color: rgba(72, 187, 120, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  justify-content: center;
+}
+
+main .product-current .product-about button:hover {
+  --bg-opacity: 1;
+  background-color: #68d391;
+  background-color: rgba(104, 211, 145, var(--bg-opacity));
+}
+
+main .product-current .product-about .product-info {
+  margin-bottom: 2rem;
+}
+
+main .product-current .product-about .product-info .product-name {
+  --text-opacity: 1;
+  color: #3c366b;
+  color: rgba(60, 54, 107, var(--text-opacity));
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+main .product-current .product-about .product-info .product-price {
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  font-size: 2.25rem;
+}
+
+main .product-current .product-about .product-info .product-description {
+  margin-top: 0.5rem;
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
+}
+
+main .products-related span {
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  font-size: 2.25rem;
+}
+
+main .products-related .products-more {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.25rem;
+}
+
+main .products-related .products-more div {
+  width: 33.333333%;
+}
+
+main .products-related .products-more .product-name {
+  font-weight: 700;
+}
+
+main .products-related .products-more .product-price {
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+}
+
+/*# sourceMappingURL=main.css.map */

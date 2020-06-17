@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  main nav ol {
+    flex-direction: row;
+  }
+
+  main nav ol li {
+    width: auto;
+    margin-right: 1.25rem;
+  }
+
+  main .product-current {
+    flex-direction: row;
+  }
+
+  main .product-current .product-image {
+    width: 66.666667%;
+  }
+
+  main .product-current .product-about button {
+    display: flex;
+  }
+
+  main .product-current .product-about .product-info {
+    margin-bottom: auto;
+  }
+}
+
+/*# sourceMappingURL=screen-md.css.map */
