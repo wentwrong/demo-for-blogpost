@@ -20,8 +20,8 @@ main .product-current {
   margin-top: 1.25rem;
 }
 
-main .product-current .product-image {
-  width: 100%;
+main .product-current .product-image img {
+  width: 512px;
 }
 
 main .product-current .product-about button {
@@ -84,8 +84,8 @@ main .products-related .products-more {
   margin-top: 1.25rem;
 }
 
-main .products-related .products-more div {
-  width: 33.333333%;
+main .products-related .products-more img {
+  width: 256px;
 }
 
 main .products-related .products-more .product-name {
