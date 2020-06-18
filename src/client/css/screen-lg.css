@@ -10,8 +10,4 @@
     header nav .navbar {
         @apply flex flex-row w-auto;
     }
-
-    main .products-related .products-more .product-name {
-        @apply text-4xl;
-    }
 }

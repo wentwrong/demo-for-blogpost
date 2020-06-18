@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
     </head>
     <body>
         <header>
@@ -31,6 +30,7 @@
         
         <main>
             <div class="container">
+                <!--
                 <nav>
                     <ol>
                         <li><a href="#">Home</a></li>
@@ -38,7 +38,8 @@
                         <li>Mock Product</li>
                     </ol>
                 </nav>
-                
+                -->
+
                 <div class="product-current">
                     <div class="product-image">
                         <img src="media/main.jpg" alt="Mock Product" />
@@ -46,11 +47,26 @@
 
                     <div class="product-about">
                         <div class="product-info">
-                            <span class="product-name">Mock Product #1</span>
+                            <span class="product-name">Black T-Shirt</span>
                             <p class="product-price">$9.99</p>
-                            <p class="product-description">Mock Description</p>
+                            <div class="product-description">
+                                <b>Specifications</b>
+                                <ul>
+                                    <li>T-shirts are made out of 100% cotton</li>
+                                    <li>These t-shirts have a regular fit</li>
+                                    <li>Single color print</li>
+                                    <li>Machine wash at 30°</li>
+                                    <li>Tumble dry possible at low heat</li>
+                                    <li>Do not bleach</li>
+                                </ul>
+                            </div>
                         </div>
-                        <button>Add To Cart</button>
+                        <button>
+                            <svg fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                            </svg>
+                            Add To Cart
+                        </button>
                     </div>
                 </div>
 
@@ -61,17 +77,17 @@
                     <div class="products-more">
                         <div>
                             <img src="media/01-500px.jpg" alt="Mock Product Image">
-                            <p class="product-name">Mock Product #2</p>
+                            <p class="product-name">Jimin Meme T-Shirt</p>
                             <p class="product-price">$19.99</p>
                         </div>
                         <div>
                             <img src="media/02-500px.jpg" alt="Mock Product Image">
-                            <p class="product-name">Mock Product #3</p>
+                            <p class="product-name">Coffee Printed Black T-Shirt</p>
                             <p class="product-price">$29.99</p>
                         </div>
                         <div>
                             <img src="media/03-500px.jpg" alt="Mock Product Image">
-                            <p class="product-name">Mock Product #4</p>
+                            <p class="product-name">Sync Jam T-Shirt</p>
                             <p class="product-price">$39.99</p>
                         </div>
                     </div>
@@ -80,7 +96,7 @@
         </main>
         
         <footer>
-            <p class="copyright">&copy; Copyright 2020 <a href="#" title="Mock Online Shop" target="_blank">Mock Online Shop</a></p>
+            <p class="copyright">&copy; Copyright 2020 <a href="#" title="Mock Online Shop">Mock Online Shop</a></p>
         </footer>
     </body>
 </html>

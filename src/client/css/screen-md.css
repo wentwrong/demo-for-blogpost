@@ -11,8 +11,8 @@
         @apply flex-row;
     }
     
-    main .product-current .product-image {
-        @apply w-2/3;
+    main .product-current .product-about {
+        @apply ml-5;
     }
 
     main .product-current .product-about button {

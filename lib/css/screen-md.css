@@ -12,8 +12,8 @@
     flex-direction: row;
   }
 
-  main .product-current .product-image {
-    width: 66.666667%;
+  main .product-current .product-about {
+    margin-left: 1.25rem;
   }
 
   main .product-current .product-about button {

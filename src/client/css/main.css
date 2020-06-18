@@ -11,7 +11,7 @@ main nav ol li {
 }
 
 main .product-current {
-    @apply flex flex-col mt-5;
+    @apply flex flex-col mt-5 mb-5;
 }
 
 main .product-current .product-image img {
@@ -19,11 +19,15 @@ main .product-current .product-image img {
 }
 
 main .product-current .product-about button {
-    @apply hidden w-full p-3 mt-2 text-center bg-green-500 text-white justify-center;
+    @apply hidden w-full p-3 mt-5 text-center bg-blue-600 text-white justify-center;
+}
+
+main .product-current .product-about button svg {
+    @apply fill-current w-5 h-5 mr-2;
 }
 
 main .product-current .product-about button:hover {
-    @apply bg-green-400;
+    @apply bg-blue-700;
 }
 
 main .product-current .product-about .product-info {
@@ -38,7 +42,11 @@ main .product-current .product-about .product-info .product-price {
 }
 
 main .product-current .product-about .product-info .product-description {
-    @apply mt-2 text-gray-600;
+    @apply mt-2 text-gray-600 leading-loose list-inside list-disc;
+}
+
+main .product-current .product-about .product-info .product-description ul {
+    @apply list-inside list-disc;
 }
 
 main .products-related span {
@@ -46,7 +54,7 @@ main .products-related span {
 }
 
 main .products-related .products-more {
-    @apply flex flex-row mt-5;
+    @apply flex flex-row justify-between mt-5;
 }
 
 main .products-related .products-more img {
@@ -54,7 +62,7 @@ main .products-related .products-more img {
 }
 
 main .products-related .products-more .product-name {
-    @apply font-bold;
+    @apply text-indigo-900 font-bold text-xl;
 }
 
 main .products-related .products-more .product-price {
