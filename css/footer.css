@@ -1,6 +1,9 @@
 body footer {
   width: 100%;
   text-align: center;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
   margin-top: 1.25rem;
   padding: 1rem;
   --bg-opacity: 1;
