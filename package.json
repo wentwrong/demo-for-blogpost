@@ -4,6 +4,7 @@
   "description": "Demo page for blog-post about Jenkins TestCafe Plugin",
   "main": "",
   "scripts": {
+    "build-css": "gulp build",
     "serve": "live-server lib --no-browser",
     "test": "testcafe"
   },

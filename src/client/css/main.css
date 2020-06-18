@@ -14,8 +14,8 @@ main .product-current {
     @apply flex flex-col mt-5;
 }
 
-main .product-current .product-image {
-    @apply w-full;
+main .product-current .product-image img {
+    @apply w-128;
 }
 
 main .product-current .product-about button {
@@ -49,8 +49,8 @@ main .products-related .products-more {
     @apply flex flex-row mt-5;
 }
 
-main .products-related .products-more div {
-    @apply w-1/3;
+main .products-related .products-more img {
+    @apply w-64;
 }
 
 main .products-related .products-more .product-name {
